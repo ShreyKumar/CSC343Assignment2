@@ -1,3 +1,4 @@
+SET search_path TO uber,public;
 insert into client values
 (99, 'Mason', 'Daisy', 'daisy@kitchen.com'),
 (100, 'Crawley', 'Violet', 'dowager@dower-house.org'),
