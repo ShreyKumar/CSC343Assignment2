@@ -100,11 +100,9 @@ public class Assignment2 {
 	  try {
 		  query = "insert into available values " + "(" + driverID + ", " + when + ", (" + location.x + ", " + location.y + "));";
 		  pStatement = connection.prepareStatement(query);
-		  System.out.println(query);
 		  pStatement.executeUpdate();
 	  } catch(Exception e){
 		e.printStackTrace();
-		System.out.println("hello");
 		return false;
 	  }
 	  
